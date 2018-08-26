@@ -5,7 +5,8 @@ import { HeroService } from './hero.service';
 
 @Component({
   selector: 'app-heroes',
-  templateUrl: './heroes.component.html'
+  templateUrl: './heroes.component.html',
+  styles: []
 })
 export class HeroesComponent implements OnInit {
   addingHero = false;

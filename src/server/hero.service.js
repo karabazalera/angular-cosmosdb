@@ -4,7 +4,7 @@ const ReadPreference = require('mongodb').ReadPreference;
 require('./mongo').connect();
 
 function getHeroes(req, res) {
-  const docquery = Hero.find({}).read(ReadPreference.NEAREST);
+  const docquery = Hero.find({})
   docquery
     .exec()
     .then(heroes => {

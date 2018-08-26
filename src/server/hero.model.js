@@ -9,8 +9,7 @@ const heroSchema = new Schema(
     saying: String
   },
   {
-    collection: 'heroes',
-    read: 'nearest'
+    collection: 'heroes'
   }
 );
 
